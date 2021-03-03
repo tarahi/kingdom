@@ -10,7 +10,7 @@
 /*==============================================================================
     .hero style
 ============================================================================= */
-.hero-bg { height: 100vh; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; }
+.hero-bg { height: 100vh; min-height: 1080px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; }
 .hero .ttl { display: none; }
 
 /*==============================================================================
