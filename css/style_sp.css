@@ -15,7 +15,7 @@ html { font-size: 13.3333333vw; }
     .hero style
 ============================================================================= */
 .hero-bg { height: 100vh; background: url(../img/hero_bg01_sp.jpg) no-repeat 50% 0; background-size: cover; }
-/* .hero-bg .ttl { display: none; } */
+.hero-bg .ttl { display: none; }
 
 /*==============================================================================
     footer style
