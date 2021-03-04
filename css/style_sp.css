@@ -6,6 +6,7 @@
     .common style
 ============================================================================= */
 html { font-size: 13.3333333vw; }
+.inner { position: relative; width: auto; padding: 0 .2rem; }
 
 /*==============================================================================
     .header style
@@ -14,8 +15,11 @@ html { font-size: 13.3333333vw; }
 /*==============================================================================
     .hero style
 ============================================================================= */
-.hero-bg { height: 100vh; background: url(../img/hero_bg01_sp.jpg) no-repeat 50% 0; background-size: cover; }
-/* .hero-bg .ttl { display: none; } */
+.hero-bg { padding: 0 0 1rem; background: #0545c4; }
+.hero-ttl { margin: 0 -.2rem; }
+.hero-twitter .twitter-bnr { margin: -2.2rem -.2rem 0; }
+.hero-twitter .twitter-timelinewrap { height: 6rem; margin: .3rem auto; overflow: scroll; }
+.hero-twitter .twitter-btn { width: 6rem; margin: .5rem auto 0; }
 
 /*==============================================================================
     footer style

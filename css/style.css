@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 @media screen and (min-width: 769px) {
-.inner { position: relative; width: 980px; margin: 0 auto; }
+.inner { position: relative; width: 1000px; margin: 0 auto; }
+a { transition: .5s; }
+a:hover { opacity: .7; transition: .5s; }
 
 /*==============================================================================
     .header style
@@ -10,8 +12,12 @@
 /*==============================================================================
     .hero style
 ============================================================================= */
-.hero-bg { height: 100vh; min-height: 1300px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; }
-.hero .ttl { display: none; }
+/* .hero-bg { height: 100vh; min-height: 1300px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; } */
+.hero-bg { min-width: 1000px; padding: 8px 0 80px; background: url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: cover; }
+.hero-ttl { width: 2000px; margin: 0 0 0 -500px; }
+.hero-twitter .twitter-bnr { width: 819px; margin: -82px auto 0; }
+.hero-twitter .twitter-timelinewrap { width: 732px; height: 625px; margin: 6px auto; overflow: scroll; }
+.hero-twitter .twitter-btn { width: 440px; margin: 40px auto 0; }
 
 /*==============================================================================
     footer style

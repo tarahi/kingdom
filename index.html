@@ -13,11 +13,26 @@
 
 <body>
 
-    <div class="wrapper">
+    <div id="wrapper">
 
         <div class="hero">
             <div class="hero-bg">
-                <h1 class="ttl"><img src="img/hero_img01_sp.png" alt="キングダム DASH!!(KINGDOM ダッシュ!!)」今春配信予定!!"></h1>
+                <div class="inner">
+                    <h1 class="hero-ttl">
+                        <picture>
+                            <source media="(min-width:769px)" srcset="img/hero_img01_pc.png">
+                            <source media="(max-width:768px)" srcset="img/hero_img01_sp.png">
+                            <img src="img/hero_img01_pc.png" alt="キングダム DASH!!(KINGDOM ダッシュ!!)」今春配信予定!!">
+                        </picture>
+                    </h1>
+                    <div class="hero-twitter">
+                        <p class="twitter-bnr"><img src="img/hero_img01.png" alt="キングダム DASH!!公式twitter"></p>
+                        <!-- <div class="twitter-timelinewrap"><a class="twitter-timeline" href="https://twitter.com/Kingdom_Dash?ref_src=twsrc%5Etfw">Tweets by Kingdom_Dash</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div> -->
+                        <div class="twitter-timelinewrap"><a class="twitter-timeline" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                        <!-- <div class="twitter-btn"><a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">公式Twitterをフォローする</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div> -->
+                        <div class="twitter-btn"><a class="tw-follow-btn" href="https://twitter.com/intent/follow?screen_name=Kingdom_Dash" target="_blank" onclick="window.open(this.href, 'window', 'width=600, height=400, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="img/hero_btn01.png" alt="公式Twitterをフォローする"></a></div>
+                    </div>
+                </div>
             </div>
         </div>
 
