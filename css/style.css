@@ -22,5 +22,6 @@ a:hover { opacity: .7; transition: .5s; }
 /*==============================================================================
     footer style
 ============================================================================= */
-
+.footer { padding: 46px 0; background: #242b39; }
+.footer-copyright { color: #fff; font-size: 15px; text-align: center; }
 }

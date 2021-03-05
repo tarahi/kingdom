@@ -24,6 +24,7 @@ html { font-size: 13.3333333vw; }
 /*==============================================================================
     footer style
 ============================================================================= */
-
+.footer { padding: .3rem 0; background: #242b39; }
+.footer-copyright { color: #fff; font-size: .2rem; text-align: center; }
 
 }
