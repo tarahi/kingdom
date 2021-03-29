@@ -13,15 +13,50 @@ a:hover { opacity: .7; transition: .5s; }
     .hero style
 ============================================================================= */
 /* .hero-bg { height: 100vh; min-height: 1300px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; } */
-.hero-bg { min-width: 1000px; padding: 8px 0 80px; background: url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: cover; }
+.hero-bg { min-width: 1000px; padding: 8px 0 125px; background: url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: cover; }
 .hero-ttl { width: 2000px; margin: 0 0 0 -500px; }
 .hero-twitter .twitter-bnr { width: 819px; margin: -82px auto 0; }
 .hero-twitter .twitter-timelinewrap { width: 732px; height: 625px; margin: 6px auto; overflow: scroll; }
 .hero-twitter .twitter-btn { width: 440px; margin: 40px auto 0; }
 
 /*==============================================================================
+    .movie style
+============================================================================= */
+.movie-bg { padding: 1px 0 280px; background: url(../img/movie_bg01_pc.jpg) no-repeat 50% 0; background-size: cover; }
+.movie .cta-block { position: relative; width: 962px; margin: -145px auto 0; }
+.movie .btn-block { display: flex; flex-wrap: wrap; justify-content: space-between; position: absolute; left: 236px; top: 158px; width: 530px; margin: 0 auto }
+.movie .apple { width: 231px; }
+.movie .google { width: 251px; }
+.movie .youtube { position: relative; width: 100%; margin: 80px 0 0; padding-top: 56.25%; }
+.movie .youtube iframe { position: absolute; top: 0; right: 0; width: 100% !important; height: 100% !important; }
+
+/*==============================================================================
+    .overview style
+============================================================================= */
+.overview-bg { min-width: 1000px; margin: -260px 0 0; padding: 1px 0 275px; background: url(../img/overview_bg01_pc.png) no-repeat 50% 0; background-size: cover; }
+.overview-ttl { width: 1543px; margin: 0 0 0 -318px; }
+.overview .game-screen { width: 1036px; margin: -270px -18px 0; }
+
+/*==============================================================================
+    .cta style
+============================================================================= */
+.cta .bg { padding: 60px 0 65px; background: url(../img/cta_bg01.jpg) no-repeat 50% 0; background-size: cover; }
+/* .cta-ttl { width: 962px; margin: 0 auto; } */
+.cta .main-block { position: relative; width: 962px; margin: 0 auto; }
+.cta .btn-block { display: flex; flex-wrap: wrap; justify-content: space-between; position: absolute; left: 236px; top: 143px; width: 530px; margin: 0 auto }
+.cta .apple { width: 231px; }
+.cta .google { width: 251px; }
+
+/*==============================================================================
     footer style
 ============================================================================= */
-.footer { padding: 46px 0; background: #242b39; }
-.footer-copyright { color: #fff; font-size: 15px; text-align: center; }
+.footer { padding: 30px 0 47px; background: #242b39; color: #fff; }
+.footer .top-block { justify-content: flex-start; position: relative; width: 700px; margin: 0 0 0 158px; padding: 0 0 30px; }
+.footer .top-block::before { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 1px; border-bottom: solid 1px #393f4c; background: #0c1527; content: ""; }
+.footer-logo { width: 146px; margin: 0 40px 0 0; }
+.footer .game-category { width: 510px; font-size: 14px; }
+.footer .game-category .txt01,.footer .game-category .txt03 { width: 220px; }
+.footer .game-category .txt02,.footer .game-category .txt04 { width: 290px; }
+.footer-copyright { margin: 46px 0 0; font-size: 15px; text-align: center; }
+
 }

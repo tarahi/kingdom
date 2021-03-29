@@ -47,7 +47,7 @@ body { -webkit-text-size-adjust: none; background: #fff; }
 /*
  * Inner InitialStyle
  */
-.inner { position: relative; margin: 0 auto; padding: 0 .2rem;}
+/* .inner { position: relative; margin: 0 auto; padding: 0 .2rem;} */
 
 
 /* =============================================================================

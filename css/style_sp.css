@@ -6,7 +6,7 @@
     .common style
 ============================================================================= */
 html { font-size: 13.3333333vw; }
-.inner { position: relative; width: auto; padding: 0 .2rem; }
+.inner { position: relative; width: auto; padding: 0 .3rem; }
 
 /*==============================================================================
     .header style
@@ -16,15 +16,54 @@ html { font-size: 13.3333333vw; }
     .hero style
 ============================================================================= */
 .hero-bg { padding: 0 0 1rem; background: #0545c4; }
+.hero .inner { padding: 0 .2rem; }
 .hero-ttl { margin: 0 -.2rem; }
 .hero-twitter .twitter-bnr { margin: -2.2rem -.2rem 0; }
 .hero-twitter .twitter-timelinewrap { height: 6rem; margin: .3rem auto; overflow: scroll; }
 .hero-twitter .twitter-btn { width: 6rem; margin: .5rem auto 0; }
 
 /*==============================================================================
+    .movie style
+============================================================================= */
+.movie-bg { padding: .01rem 0 2.05rem; background: url(../img/movie_bg01_sp.jpg) no-repeat 50% 0; background-size: cover; }
+.movie .cta-block { position: relative; width: 7.5rem; margin: -.8rem -.2rem 0; }
+.movie .btn-block { display: flex; flex-wrap: wrap; justify-content: space-between; position: absolute; left: 0; right: 0; top: 2.13rem; width: 5.8rem; margin: 0 auto }
+.movie .apple { width: 2.71rem; }
+.movie .google { width: 2.95rem; }
+.movie .youtube { position: relative; width: 100%; margin: .99rem 0 0; padding-top: 56.25%; }
+.movie .youtube iframe { position: absolute; top: 0; right: 0; width: 100% !important; height: 100% !important; }
+
+/*==============================================================================
+    .overview style
+============================================================================= */
+.overview-bg { position: relative; margin: -1rem 0 0; padding: .01rem 0 0; background: url(../img/overview_bg01_sp.png) no-repeat 50% 0; background-size: cover; z-index: 2; }
+.overview .inner { padding: 0; }
+.overview-ttl { margin: -.57rem 0 0; }
+.overview .game-screen { width: 7.08rem; margin: -1.07rem auto 0; }
+
+/*==============================================================================
+    .cta style
+============================================================================= */
+.cta .inner { padding: 0; }
+.cta .main-block { position: relative; }
+.cta .btn-block { display: flex; flex-wrap: wrap; justify-content: space-between; position: absolute; left: 0; right: 0; bottom: .99rem; width: 5.8rem; margin: 0 auto }
+.cta .apple { width: 2.71rem; }
+.cta .google { width: 2.95rem; }
+
+/*==============================================================================
     footer style
 ============================================================================= */
-.footer { padding: .3rem 0; background: #242b39; }
-.footer-copyright { color: #fff; font-size: .2rem; text-align: center; }
+.footer { padding: .58rem 0 .34rem; background: #242b39; color: #fff; }
+.footer .top-block { position: relative; justify-content: flex-start; padding: 0 0 .55rem; }
+.footer .top-block::before { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 1px; border-bottom: solid 1px #393f4c; background: #0c1527; content: ""; }
+.footer-logo{ width: 2.38rem; margin: 0 .36rem 0 .17rem; }
+.footer .game-category { width: 4.1rem; font-size: .2rem; }
+.footer .game-category .txt { width: 4.1rem; }
+.footer .game-category .txt + .txt { margin: .1rem 0 0; }
+.footer .game-category .txt01 { order: 1; }
+.footer .game-category .txt02 { order: 3; }
+.footer .game-category .txt03 { order: 2; }
+.footer .game-category .txt04 { order: 4; }
+.footer-copyright { margin: .36rem 0 0; color: #fff; font-size: .2rem; text-align: center; line-height: 2; }
 
 }
