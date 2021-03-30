@@ -12,12 +12,8 @@ a:hover { opacity: .7; transition: .5s; }
 /*==============================================================================
     .hero style
 ============================================================================= */
-/* .hero-bg { height: 100vh; min-height: 1300px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; } */
 .hero-bg { min-width: 1000px; padding: 607px 0 260px; background: #1363ce url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: 2000px 1242px; }
 .hero-ttl { width: 873px; margin: 0 auto; }
-.hero-twitter .twitter-bnr { width: 819px; margin: -82px auto 0; }
-.hero-twitter .twitter-timelinewrap { width: 732px; height: 625px; margin: 6px auto; overflow: scroll; }
-.hero-twitter .twitter-btn { width: 440px; margin: 40px auto 0; }
 
 /*==============================================================================
     .movie style
@@ -82,4 +78,9 @@ a:hover { opacity: .7; transition: .5s; }
 .footer .game-category .txt02,.footer .game-category .txt04 { width: 290px; }
 .footer-copyright { margin: 46px 0 0; font-size: 15px; text-align: center; }
 
+}
+
+@media screen and (min-width: 2100px) {
+    .overview-bg { margin-top: -130px; padding: 50px 0 200px; background-color: #02188b; }
+    .character-bg { margin-top: -130px; padding: 50px 0 100px; background-color: #3c0004; }
 }
