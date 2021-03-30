@@ -29,7 +29,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; marg
     Basic style
    ========================================================================== */
 /*html { font-size: calc(100vw / 32); }*/
-html { font-size:20px; }
+/* html { font-size:20px; } */
 
 /*
  * body InitialStyle

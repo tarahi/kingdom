@@ -13,8 +13,8 @@ a:hover { opacity: .7; transition: .5s; }
     .hero style
 ============================================================================= */
 /* .hero-bg { height: 100vh; min-height: 1300px; background: url(../img/hero_img01_pc.jpg) no-repeat 50% 0; background-size: cover; } */
-.hero-bg { min-width: 1000px; padding: 8px 0 125px; background: url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: cover; }
-.hero-ttl { width: 2000px; margin: 0 0 0 -500px; }
+.hero-bg { min-width: 1000px; padding: 607px 0 260px; background: #1363ce url(../img/hero_bg01_pc.jpg) no-repeat 50% 0; background-size: 2000px 1242px; }
+.hero-ttl { width: 873px; margin: 0 auto; }
 .hero-twitter .twitter-bnr { width: 819px; margin: -82px auto 0; }
 .hero-twitter .twitter-timelinewrap { width: 732px; height: 625px; margin: 6px auto; overflow: scroll; }
 .hero-twitter .twitter-btn { width: 440px; margin: 40px auto 0; }
@@ -36,6 +36,29 @@ a:hover { opacity: .7; transition: .5s; }
 .overview-bg { min-width: 1000px; margin: -260px 0 0; padding: 1px 0 275px; background: url(../img/overview_bg01_pc.png) no-repeat 50% 0; background-size: cover; }
 .overview-ttl { width: 1543px; margin: 0 0 0 -318px; }
 .overview .game-screen { width: 1036px; margin: -270px -18px 0; }
+
+/*==============================================================================
+    .character style
+============================================================================= */
+.character-bg { position: relative; min-width: 1000px; margin: -216px 0 0; padding: 1px 0 202px; background: url(../img/character_bg01_pc.png) no-repeat 50% 0; background-size: cover; z-index: 2; }
+.character-ttl { width: 1223px; margin: 0 0 0 -128px; }
+.character-example { width: 1141px; margin: 47px 0 0 -111px; }
+
+/*==============================================================================
+    .twitter style
+============================================================================= */
+.twitter-bg { margin: -208px 0 0; padding: 330px 0 76px; background: #0545c4 url(../img/twitter_bg01_pc.png) no-repeat 50% 0; background-size: cover; }
+.twitter-block { display: flex; flex-wrap: wrap; justify-content: space-between; position: relative; width: 1080px; height: 600px; margin: 0 -40px; border-radius: 15px; }
+.twitter-ttl { position: absolute; left: -65px; top: -130px; width: 477px; }
+.twitter-block .info { width: 50%; padding: 40px; background: #fff; border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.twitter-block .account-info { position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin: 30px 0 0; }
+.twitter-block .account-info .icon { width: 110px; }
+.twitter-block .account-info .name { width: 330px; }
+.twitter-block .account-info .txt01 { font-size: 18px; font-weight: bold; }
+.twitter-block .account-info .btn { width: 170px; margin: 15px 0 0; }
+.twitter-block .info .comments { margin: 28px 0 0; line-height: 2; }
+.twitter-block .timeline-wrap { width: 50%; height: 600px; padding: 40px; background: #e0eaff; border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+.twitter-block .timeline-wrap .scroll { height: 100%; border-radius: 5px; overflow-y: scroll; }
 
 /*==============================================================================
     .cta style

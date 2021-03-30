@@ -36,10 +36,33 @@ html { font-size: 13.3333333vw; }
 /*==============================================================================
     .overview style
 ============================================================================= */
-.overview-bg { position: relative; margin: -1rem 0 0; padding: .01rem 0 0; background: url(../img/overview_bg01_sp.png) no-repeat 50% 0; background-size: cover; z-index: 2; }
+.overview-bg { position: relative; margin: -1rem 0 0; padding: .01rem 0 1.45rem; background: url(../img/overview_bg01_sp.jpg) no-repeat 50% 0; background-size: cover; z-index: 2; }
 .overview .inner { padding: 0; }
 .overview-ttl { margin: -.57rem 0 0; }
 .overview .game-screen { width: 7.08rem; margin: -1.07rem auto 0; }
+
+/*==============================================================================
+    .character style
+============================================================================= */
+.character-bg { position: relative;  margin: -.97rem 0 0; z-index: 2; }
+.character .inner { padding: 0; }
+
+/*==============================================================================
+    .twitter style
+============================================================================= */
+.twitter-bg { position: relative; margin: -.42rem 0 0; padding: 1.7rem 0 1rem; background: #0545c4 url(../img/twitter_bg01_sp.png) no-repeat 50% 0; background-size: cover; z-index: 2; }
+.twitter-block { position: relative; border-radius: .15rem; }
+.twitter-ttl { position: absolute;left: -1rem;top: -2.35rem;width: 6.2rem; }
+.twitter-block .info { padding: .3rem .3rem .4rem; background: #fff; border-top-left-radius: .1rem; border-top-right-radius: .1rem; }
+.twitter-block .account-info { position: relative; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin: .46rem 0 0; }
+.twitter-block .account-info .icon { width: 1.58rem; }
+.twitter-block .account-info .name { width: 4.4rem; }
+.twitter-block .account-info .txt01 { font-size: .28rem; font-weight: bold; }
+.twitter-block .account-info .txt02 { font-size: .24rem; }
+.twitter-block .account-info .btn { width: 2.46rem; margin: .26rem 0 0; }
+.twitter-block .info .comments { margin: .36rem 0 0; font-size: .24rem; line-height: 2; }
+.twitter-block .timeline-wrap { height: 6.2rem; padding: .3rem; background: #e0eaff; border-bottom-left-radius: .1rem; border-bottom-right-radius: .1rem; }
+.twitter-block .timeline-wrap .scroll { height: 100%; border-radius: .05rem; overflow-y: scroll; }
 
 /*==============================================================================
     .cta style
